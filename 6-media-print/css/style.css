@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: #454442;
+	color: white;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: white;
+}
+
+ .clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: auto;
+}
+
+.heading {
+	background-image: url(../img/css.png);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 5%;
+	padding: 10px;
+}
+
+.menu {
+	background: #75A46D;
+}
+
+.menu li {
+	float: left;
+	padding: 10px 30px;
+}
+
+.article {
+	margin-bottom: 20px;
+}
+
+.footer {
+	background: #75A46D;
+}
+
+.footer .footer-menu {
+	float: left;
+}
+
+.footer .contacts {
+	float: right;
+	margin-right: 30px;
+}
